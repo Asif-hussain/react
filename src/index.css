@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* PokemonDetails.css */
+
+/* Style for the Pokemon details container */
+.pokemon-details {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the table header */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #364536;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table cells */
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+.search-bar {
+  position: absolute;
+  top: 10px; /* Adjust this value to control the vertical position from the top */
+  right: 10px; /* Adjust this value to control the horizontal position from the right */
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3vh; /* Adjust as needed for your layout */
+}
+
+
+
+.detail-section {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 18px;
+  margin: 0;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 0;
+  color: #414b56;
+}
